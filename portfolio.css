@@ -1,0 +1,214 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth;
+  }
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 4px 10px;
+    width: 100%;
+    height: 76px;
+    align-items: center;
+    background-color:gainsboro;
+    
+}
+nav a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+nav:hover{
+    color: blue;
+}
+nav a h2 {
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+nav ul li{
+    display: inline;
+}
+nav ul li a{
+    color: black;
+    text-decoration: none;
+    padding: 10px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.banner{
+    width: 100%;
+    height: 800px;
+    background-image: url('https://img.freepik.com/free-vector/shiny-white-gray-background-with-wavy-lines_1017-25101.jpg');
+    background-size: 100% 100%;
+    display: flex;
+}
+.banner-details{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 50px;
+}
+.banner-img{
+    width: 50%;
+    overflow: hidden;
+    position: relative;
+}
+.banner-img .shape{
+    width: 500px;
+    height: 500px;
+    right: 20%;
+    top: 10%;
+    position: absolute;
+    transition: .3s ease-in-out;
+}
+.banner-img .man{
+    position: absolute;
+    z-index: 999;
+    right: 25%;
+    top: 10%;
+    width: 400px;
+    height: 400px;
+    transition: .3s ease-in-out;
+}
+.banner-img:hover .shape{
+    right: 24%;
+}
+.banner-img:hover .man{
+    right: 20%;
+}
+span{
+    color: orange;
+}
+p{
+    font-size: 25px;
+}
+.details{
+    width: 100%;
+    height: 700px;
+    background-image: url('https://thumbs.dreamstime.com/b/simple-white-brick-wall-light-gray-shades-seamless-pattern-surface-texture-background-banner-wide-panorama-format-simple-137027626.jpg');
+    background-size: 100% 100%;
+
+}   
+h3{
+    text-align: center;
+    font-weight: bolder;
+    font-size: 30px;
+}
+.details p{
+    justify-content: center;
+    margin: 15%;
+}
+.skills{
+    width: 100%;
+    height: 700px;
+    background-image: url('https://img.freepik.com/free-vector/shiny-white-gray-background-with-wavy-lines_1017-25101.jpg');
+    background-size: 100% 100%;
+
+}
+.skills ul h2{
+    text-align: center;
+    font-size: 50px;
+    
+
+}
+.skills ul li{
+    display: flex;
+    font-size: 40px;
+    font-family: sans-serif;
+    text-transform: capitalize;
+}
+.logo2{
+    width: 80%;
+    overflow: hidden;
+    position: relative;
+
+}
+.logo2 .py{
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    top: -10%;
+    left: 70%;
+}
+.projects h2{
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: bolder;
+    font-size: 40px
+}
+.projects{
+    width: 100%;
+    height: auto;
+    background-image: url('https://thumbs.dreamstime.com/b/simple-white-brick-wall-light-gray-shades-seamless-pattern-surface-texture-background-banner-wide-panorama-format-simple-137027626.jpg');
+    background-size: 100% 100%;
+}
+.projects a{
+    text-decoration: none;
+    border: 2px solid beige;
+    display: inline;
+    text-transform: uppercase;
+    color: black;
+    text-align: center;
+}
+.archivements{
+    width: 100%;
+    height: auto;
+    background-image: url('https://img.freepik.com/free-vector/shiny-white-gray-background-with-wavy-lines_1017-25101.jpg');
+    background-size: 100% 100%;
+}
+.archivements h2{
+    text-align: center;
+    font-size: 40px;
+    font-weight: bolder;
+}
+.archivements ol{
+    text-align: left;
+    font-size: 20px
+}
+.archivements .trophy{
+    width:70%;
+    height: 45%;
+    margin-left: 80px;
+}
+.tribute{
+    display: flex;
+    justify-content: space-around;
+    padding:0px 10px;
+
+}
+.tribute a{
+    border: 1px solid blueviolet;
+    font-size: 20px;
+    background-color: beige;
+}
+.cat{
+    display: flex;
+    justify-content: space-between;
+    padding: auto;
+}
+.contact{
+    width: 100%;
+    height: auto;
+    background-image: url('https://thumbs.dreamstime.com/b/simple-white-brick-wall-light-gray-shades-seamless-pattern-surface-texture-background-banner-wide-panorama-format-simple-137027626.jpg');
+    background-size: 100% 100%;
+
+}
+fieldset{
+    background-color: #ccc;
+    background-size: 50%;
+}
+footer{
+    background-color: rgb(177, 177, 177);
+    padding: 20px;
+    font-size: 18px
+}
+.banner h1{
+    font-size: 50px;
+}
