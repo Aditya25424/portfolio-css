@@ -70,11 +70,11 @@ span{
     color: orange;
 }
 p{
-    font-size: 140%;
+    font-size: 138%;
 }
 .details{
     width: 100%;
-    height: 700px;
+    height: 610px;
     background-image: url('https://thumbs.dreamstime.com/b/simple-white-brick-wall-light-gray-shades-seamless-pattern-surface-texture-background-banner-wide-panorama-format-simple-137027626.jpg');
     background-size: 100% 100%;
 
@@ -86,7 +86,7 @@ h3{
 }
 .details p{
     justify-content: center;
-    margin: 7%;
+    margin: 6%;
 }
 .skills{
     width: 100%;
