@@ -218,7 +218,6 @@ input[type="text"], input[type="email"], input[type="number"], select {
     border: 1px solid #ccc;
     border-radius: 4px;
     box-sizing: border-box;
-    margin-bottom: 20px;
   }
 button{
     font-size: 30px;
@@ -230,7 +229,7 @@ button{
 footer{
     background-color: rgba(228, 228, 228, 0.771);
     padding: 20px;
-    font-size: 18px
+    font-size: 75.5%
 }
 
 
